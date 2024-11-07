@@ -1,0 +1,398 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .register-box {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    width: 300px;
+    text-align: center;
+  }
+  
+  h3 {
+    color: #ffd700;
+  }
+  
+  .form-group {
+    margin: 1rem 0;
+    text-align: left;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: #ffd700;
+  }
+  
+  .btn-register {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-register:hover {
+    background-color: #ffcc00;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 1rem;
+  }
+  
+  .login-link {
+    margin-top: 1.5rem;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  h2 {
+    color: #ffd700;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dashboard-form {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    width: 400px;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin: 1rem 0;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: #ffd700;
+  }
+  
+  .btn-submit {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-submit:hover {
+    background-color: #ffcc00;
+  }
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  h2 {
+    color: #ffd700;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+  }
+  
+  .dashboard-table th, .dashboard-table td {
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid #ffd700;
+  }
+  
+  .dashboard-table th {
+    background-color: #333;
+    color: #ffd700;
+  }
+  
+  .dashboard-table tr:nth-child(even) {
+    background-color: #2a2a2a;
+  }
+  
+  .loading-message, .error-message {
+    color: #ffd700;
+    font-size: 1.2rem;
+  }
+  
+  .patient-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  /* Styles for the submitted data section */
+ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  margin-top: 1rem; /* Space above the list */
+  width: 100%; /* Full width for alignment */
+  background-color: #1a1a1a; /* Background color matching the theme */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.5); /* Similar shadow effect */
+}
+
+li {
+  padding: 1rem; /* Padding for each item */
+  border-bottom: 1px solid #ffd700; /* Gold border between items */
+  color: #fff; /* Text color */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space out items */
+  align-items: center; /* Center items vertically */
+}
+
+li:last-child {
+  border-bottom: none; /* Remove border from last item */
+}
+
+strong {
+  color: #ffd700; /* Gold color for strong text */
+}
+
+img {
+  width: 50px; /* Fixed width for images */
+  height: 50px; /* Fixed height for images */
+  border-radius: 5px; /* Rounded corners for images */
+  margin-left: 10px; /* Space to the left of the image */
+}
+
+@media (max-width: 600px) {
+  li {
+    flex-direction: column; /* Stack items on small screens */
+    align-items: flex-start; /* Align items to the left */
+  }
+}
+/* Button hover effect */
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Disabled button styling */
+button[type="submit"]:disabled {
+  background-color: #ffd700;
+  cursor: not-allowed;
+}
+.image-preview img {
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.image-preview img:hover {
+  transform: scale(5.5); /* Increase size by 1.5x on hover */
+  cursor: pointer; /* Change cursor to pointer */
+}
+ul li img {
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+ul li img:hover {
+  transform: scale(8.5); /* Enlarge image to 1.5 times its size */
+  cursor: pointer; /* Change cursor to indicate interactivity */
+}
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+  width: 300px;
+  text-align: center;
+}
+
+h3 {
+  color: #ffd700;
+}
+
+.form-group {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.label {
+  font-weight: bold;
+}
+
+input, button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ffd700;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+input:focus, button:focus {
+  outline: none;
+  border-color: #ffd700;
+}
+
+button[type="submit"] {
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #ffcc00;
+}
+
+.error-message {
+  color: red;
+  margin-top: 1rem;
+}
+
+.login-link {
+  margin-top: 1.5rem;
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .login-box {
+    width: 90%;
+  }
+}
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Make sure the modal is on top */
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1010;
+}
+
+.close:hover {
+  color: #ffd700; /* Hover effect for close button */
+}
+
+.patient-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.patient-image:hover {
+  transform: scale(1.1); /* Optional: add a small zoom effect on hover */
+}
